@@ -85,7 +85,7 @@ const Hero = (prop) => {
 
   return (
     <div className="herosection" id="hero" ref={containerRef} >
-      {/* <div className="canvas">
+      <div className="canvas">
         <Canvas
           shadows
           gl={{
@@ -122,7 +122,7 @@ const Hero = (prop) => {
             <shadowMaterial opacity={0.9} />
           </mesh>
         </Canvas>
-      </div> */}
+      </div>
 
       <div className="rools-loop">
         <div className="tape" ref={tapeRef}>
