@@ -5,7 +5,6 @@ import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import ContactForm from "./components/ContactForm.jsx";
 import Navbar from "./components/Navbar.jsx";
-import MusicSlider from "./components/MusicSlider.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
