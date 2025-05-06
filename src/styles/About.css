@@ -12,13 +12,14 @@
   justify-content: center;
   flex-direction: column;
   /* border: 1px solid white; */
+  position: relative;
 }
 
 .about-heading {
   font-size: 3rem;
   font-weight: 700;
   color: yellowgreen;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 input[type="radio"] {
@@ -29,6 +30,7 @@ input[type="radio"] {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* margin-top: 12%; */
 }
 
 .cards {
@@ -38,7 +40,7 @@ input[type="radio"] {
   position: relative;
   width: 100%;
   height: fit-content;
-  margin-bottom: 20px;
+  margin: 12% 0;
   /* background-color: blueviolet; */
 }
 
@@ -97,6 +99,7 @@ input[type="radio"] {
   height: 130px;
   overflow: hidden;
   /* background-color: rgb(255, 127, 127); */
+  /* margin-top: 12%; */
 }
 
 .about-text-info {
@@ -144,12 +147,25 @@ input[type="radio"] {
   box-shadow: 0 0 0.3rem 0.1rem rgb(59, 59, 59);
 }
 
+@media screen and (max-width:1440px){
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 20% 0;
+    /* background-color: blueviolet; */
+  }
+}
+
 @media screen and (max-width:1024px){
   .about-heading {
     font-size: 2.8rem;
     font-weight: 700;
     color: yellowgreen;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   .about-content {
     /* background-color: aqua; */
@@ -157,9 +173,43 @@ input[type="radio"] {
     width: 100%;
     padding: 10px 20px;
   }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    /* margin: 30% 0; */
+    /* background-color: blueviolet; */
+  }
+}
+
+@media screen and (max-width:950px){
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 40% 0;
+    /* background-color: blueviolet; */
+  }
 }
 
 @media screen and (max-width:768px){
+
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 40% 0;
+    /* background-color: blueviolet; */
+  }
 
   .download-btn {
     box-shadow: 0 0 0.3rem 0.1rem yellowgreen;
@@ -201,6 +251,17 @@ input[type="radio"] {
 
 @media screen and (max-width:705px){
 
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 40% 0;
+    /* background-color: blueviolet; */
+  }
+
   .download-btn {
     box-shadow: 0 0 0.3rem 0.1rem yellowgreen;
     color: white;
@@ -245,7 +306,7 @@ input[type="radio"] {
     /* background-color: aqua; */
     height: 130px;
     width: 100%;
-    padding: 15px 20px;
+    padding: 15px 10px;
   }
   
   .about-content p {
@@ -257,6 +318,18 @@ input[type="radio"] {
 }
 
 @media screen and (max-width:600px){
+
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 45% 0;
+    /* background-color: blueviolet; */
+  }
+
   .about-carousel {
     padding: 8rem 2rem 4rem 2rem;
     font-family: sans-serif;
@@ -317,7 +390,7 @@ input[type="radio"] {
     /* background-color: aqua; */
     height: 130px;
     width: 100%;
-    padding: 15px 20px;
+    padding: 15px 5px;
   }
   
   .about-content p {
@@ -329,6 +402,18 @@ input[type="radio"] {
 }
 
 @media screen and (max-width:450px){
+
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 70% 0;
+    /* background-color: blueviolet; */
+  }
+
   .about-carousel {
     padding: 8rem 2rem 4rem 2rem;
     font-family: sans-serif;
@@ -410,6 +495,17 @@ input[type="radio"] {
 
 @media screen and (max-width:400px){
 
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 75% 0;
+    /* background-color: blueviolet; */
+  }
+
   .about-carousel {
     padding: 8rem 2rem 4rem 2rem;
     font-family: sans-serif;
@@ -465,7 +561,7 @@ input[type="radio"] {
     font-size: 2rem;
     font-weight: 700;
     color: yellowgreen;
-    margin-bottom: 30px;
+    /* margin-bottom: 20px; */
   }
   .about-content {
     /* background-color: rgb(0, 255, 0); */
@@ -487,4 +583,17 @@ input[type="radio"] {
     width: 100%;
   }
 
+}
+
+@media screen and (max-width:375px){
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin: 45% 0;
+    /* background-color: blueviolet; */
+  }
 }
