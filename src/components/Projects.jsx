@@ -41,8 +41,8 @@ const projectData = [
     title: "Personal Portfolio",
     description:
       "I have built and deployed a dynamic, responsive portfolio website that showcases my skills in front-end and full-stack development. Created using ReactJS, GSAP, and CSS, the site features scroll-triggered animations, interactive sections, and a clean UI/UX layout. It includes a 3D skill display, project gallery, contact form with form validation, and downloadable resume support. The portfolio highlights my proficiency with the MERN stack and modern web technologies, while also demonstrating my attention to detail, creativity, and focus on performance. It serves not just as a showcase of my work but also as a practical example of my development capabilities in a real-world setting.",
-    github: "https://github.com/Shashank-Git1804/spotify.git",
-    demo: null,
+    github: "https://github.com/Shashank-Git1804/personal-portfolio.git",
+    demo: "https://personal-portfolio-shashank.netlify.app",
   },
 ];
 
