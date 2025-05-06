@@ -82,7 +82,6 @@ const Hero = (prop) => {
     "API Integrator",
     "Technical Writer",
   ];
-  
 
   return (
     <div className="herosection" id="hero" ref={containerRef} >

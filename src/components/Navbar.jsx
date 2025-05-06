@@ -10,10 +10,11 @@ const Navbar = (prop) => {
   return (
     <>
       <nav className="new-navbar">
-        <div className="title">
+        <div className="title ">
           <a href="#hero" className="new-navbar-title">
             SK
           </a>
+          <a href="#hero">Shashank</a>
         </div>
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? (
