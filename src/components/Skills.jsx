@@ -9,14 +9,8 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaGithub,
-  FaSass,
   FaFigma,
   FaBootstrap,
-  FaLinux,
-  FaAngular,
-  FaPhp,
-  FaDocker,
-  FaAws,
   FaPython,
 } from "react-icons/fa";
 import {
@@ -36,16 +30,16 @@ const skillsWithIcons = [
   { name: "CSS", icon: <FaCss3Alt />, category: "Frontend" },
   { name: "JavaScript", icon: <FaJs />, category: "Frontend" },
   { name: "React", icon: <FaReact />, category: "Frontend" },
-  { name: "Angular", icon: <FaAngular />, category: "Frontend" },
+  // { name: "Angular", icon: <FaAngular />, category: "Frontend" },
   { name: "Bootstrap", icon: <FaBootstrap />, category: "Frontend" },
   { name: "TailwindCSS", icon: <SiTailwindcss />, category: "Frontend" },
-  { name: "SASS", icon: <FaSass />, category: "Frontend" },
+  // { name: "SASS", icon: <FaSass />, category: "Frontend" },
   { name: "Figma", icon: <FaFigma />, category: "Frontend" },
 
   // Backend
-  { name: "Node.js", icon: <FaNodeJs />, category: "Backend" },
-  { name: "Express", icon: <SiExpress />, category: "Backend" },
-  { name: "PHP", icon: <FaPhp />, category: "Backend" },
+  // { name: "Node.js", icon: <FaNodeJs />, category: "Backend" },
+  // { name: "Express", icon: <SiExpress />, category: "Backend" },
+  // { name: "PHP", icon: <FaPhp />, category: "Backend" },
   { name: "Python", icon: <FaPython />, category: "Backend" },
 
   // Database
@@ -54,13 +48,13 @@ const skillsWithIcons = [
   // Tools & DevOps
   { name: "Git", icon: <FaGitAlt />, category: "Tools" },
   { name: "GitHub", icon: <FaGithub />, category: "Tools" },
-  { name: "Docker", icon: <FaDocker />, category: "Tools" },
-  { name: "AWS", icon: <FaAws />, category: "Tools" },
-  { name: "Linux", icon: <FaLinux />, category: "Tools" },
+  // { name: "Docker", icon: <FaDocker />, category: "Tools" },
+  // { name: "AWS", icon: <FaAws />, category: "Tools" },
+  // { name: "Linux", icon: <FaLinux />, category: "Tools" },
 
   // Other
-  { name: "TypeScript", icon: <SiTypescript />, category: "Other" },
-  { name: "Jest", icon: <SiJest />, category: "Other" },
+  // { name: "TypeScript", icon: <SiTypescript />, category: "Other" },
+  // { name: "Jest", icon: <SiJest />, category: "Other" },
 ];
 
 const Skills = () => {
