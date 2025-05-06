@@ -1,0 +1,94 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(37, 38, 38);
+  color: #e1e1e6;
+  line-height: 1.6;
+  overflow-x: hidden;
+
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.rye-regular {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a8ff60;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #a8ff60;
+}
+
+/* Button Styles */
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.main-container{
+  padding-top: 5rem;
+}
+
+.all-container{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+

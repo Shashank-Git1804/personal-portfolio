@@ -1,0 +1,302 @@
+.skills-section {
+    padding: 5rem 2rem 1rem 2rem;
+    /* background-color: #121212; */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 100vw;
+    height: 102vh;
+    /* border: 1px solid white; */
+  }
+  
+  .skills-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: yellowgreen;
+    margin: 10px;
+  }
+
+  .tape-container{
+    /* background-color: cadetblue; */
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .skill-word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: brown; */
+    padding: 0;
+    margin: 10px 0px ;
+  }
+
+  .skill-word p,span {
+    padding: 0;
+    margin: 0.2rem;
+  }
+
+  .skills-loop{
+    position: absolute;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .row1{
+    box-shadow: 0 0 1rem 0.1rem yellowgreen inset;
+  }
+
+  .row2{
+    background-color: yellowgreen;
+  }
+
+  .icons{
+    color: white;
+    font-size: medium;
+    text-align: center;
+  }
+  
+  .iconRow1{
+    color: yellowgreen;
+  }
+
+  .showcase-skills {
+    display: flex;
+    /* just make height and width property auto while making it responsive */
+    height: 50%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 20px;
+    /* border: 2px solid white; */
+    /* box-shadow: 0 0 1rem 0.1rem yellowgreen; */
+  }
+
+  .skill-btn{
+    font-family: monospace;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    /* background-color: black; */
+    font-size: medium;
+    box-shadow: 0 0 0.5rem 0.1rem rgb(79, 79, 79) inset;
+  }
+  
+
+  .showcaseskill-icon{
+    color: yellowgreen;
+  }
+
+  .skill-btn:hover{
+    box-shadow: 0 0 0.5rem 0.2rem rgb(194, 243, 94) inset;
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width:1024px){
+
+    .skills-heading {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: yellowgreen;
+      margin: 10px;
+    }
+     
+    .showcase-skills {
+      display: flex;
+      /* just remove height and width property while making it responsive */
+      height: auto;
+      width: 85%;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      padding: 1rem;
+      border-radius: 20px;
+      /* border: 2px solid white; */
+      /* box-shadow: 0 0 1rem 0.1rem yellowgreen; */
+      margin: 1rem;/
+    }
+  }
+
+  @media screen and (max-width:768px){
+    .showcase-skills {
+      display: flex;
+      /* just remove height and width property while making it responsive */
+      height: 50vh;
+      width: 60%;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      padding: 1rem;
+      border-radius: 20px;
+      /* border: 2px solid white; */
+      /* box-shadow: 0 0 1rem 0.1rem yellowgreen; */
+      margin: 1rem;
+    }
+  }
+
+  @media screen and (max-width:650px){
+
+    .skills-heading {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: yellowgreen;
+      margin: 10px;
+    }
+
+    .showcase-skills {
+      display: flex;
+      /* just remove height and width property while making it responsive */
+      height: auto;
+      width: 65%;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      padding: 1rem;
+      border-radius: 20px;
+      /* border: 2px solid white; */
+      /* box-shadow: 0 0 1rem 0.1rem yellowgreen; */
+      margin: 1rem;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+
+    .skills-heading {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: yellowgreen;
+      margin: 10px;
+    }
+
+    .showcase-skills {
+      display: flex;
+      /* just remove height and width property while making it responsive */
+      height: auto;
+      width: 70%;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      padding: 1rem;
+      border-radius: 20px;
+      /* border: 2px solid white; */
+      /* box-shadow: 0 0 1rem 0.1rem yellowgreen; */
+      margin: 1rem;
+    }
+  }
+
+  @media screen and (max-width:500px){
+
+    .skills-heading {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: yellowgreen;
+      margin: 10px;
+    }
+
+    .showcase-skills {
+      display: flex;
+      /* just remove height and width property while making it responsive */
+      height: auto;
+      width: 85%;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      padding: 1rem;
+      border-radius: 20px;
+      /* border: 2px solid white; */
+      /* box-shadow: 0 0 1rem 0.1rem yellowgreen; */
+      margin: 1rem;
+
+      .skill-btn{
+        font-family: monospace;
+        margin: 0.2rem;
+        padding: 0.5rem;
+        border-radius: 20px;
+        /* background-color: black; */
+        box-shadow: 0 0 0.5rem 0.1rem rgb(79, 79, 79) inset;
+      }
+    }
+  }
+
+  @media screen and (max-width:450px){
+
+    .skills-heading {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: yellowgreen;
+      margin: 10px;
+    }
+
+    .showcase-skills {
+      display: flex;
+      /* just remove height and width property while making it responsive */
+      height: auto;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      padding: 1rem;
+      border-radius: 20px;
+      /* border: 2px solid white; */
+      /* box-shadow: 0 0 1rem 0.1rem yellowgreen; */
+      margin: 1rem;
+    }
+  }
+
+  @media screen and (max-width:400px){
+
+    .skills-heading {
+      font-size: 2rem;
+      font-weight: 700;
+      color: yellowgreen;
+      margin: 10px;
+    }
+
+    .showcase-skills {
+      display: flex;
+      /* just remove height and width property while making it responsive */
+      height: auto;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      gap: 0.3rem;
+      flex-wrap: wrap;
+      padding: 1rem;
+      border-radius: 20px;
+      /* border: 2px solid white; */
+      /* box-shadow: 0 0 1rem 0.1rem yellowgreen; */
+      margin: 1rem;
+    }
+
+    .skill-btn{
+      font-family: monospace;
+      font-size: small;
+      margin: 0.1rem;
+      padding: 0.5rem;
+      border-radius: 20px;
+      /* background-color: black; */
+      box-shadow: 0 0 0.5rem 0.1rem rgb(79, 79, 79) inset;
+    }
+  
+  }
